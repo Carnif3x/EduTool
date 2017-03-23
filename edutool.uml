@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.edutool</OriginalElement>
+  <nodes>
+    <node x="92.0" y="438.0">com.edutool.Subject</node>
+    <node x="190.79411764705884" y="262.0">com.edutool.Task</node>
+    <node x="273.79411764705884" y="262.0">com.edutool.Lecture</node>
+    <node x="906.5" y="486.5">com.edutool.Message</node>
+    <node x="721.5" y="498.0">com.edutool.Admin</node>
+    <node x="269.04411764705884" y="938.0">com.edutool.Mark</node>
+    <node x="0.0" y="688.5">com.edutool.Marks</node>
+    <node x="752.75" y="688.0">com.edutool.Chat</node>
+    <node x="1100.5" y="486.0">com.edutool.Moderator</node>
+    <node x="745.5" y="177.0">com.edutool.User</node>
+    <node x="814.5" y="0.0">com.edutool.UserType</node>
+    <node x="254.5" y="688.0">com.edutool.Teacher</node>
+    <node x="507.5" y="498.0">com.edutool.Student</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.edutool.Teacher" target="com.edutool.Mark">
+      <point x="97.0" y="100.0" />
+      <point x="545.5" y="908.0" />
+      <point x="390.14411764705886" y="908.0" />
+      <point x="34.60000000000002" y="-51.5" />
+    </edge>
+    <edge source="com.edutool.Student" target="com.edutool.Mark">
+      <point x="48.5" y="40.0" />
+      <point x="653.0" y="918.0" />
+      <point x="424.7441176470589" y="918.0" />
+      <point x="69.20000000000005" y="-51.5" />
+    </edge>
+    <edge source="com.edutool.Admin" target="com.edutool.User">
+      <point x="0.0" y="-40.0" />
+      <point x="803.5" y="418.0" />
+      <point x="853.0" y="418.0" />
+      <point x="-43.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Teacher" target="com.edutool.Subject">
+      <point x="-129.33333333333337" y="-100.0" />
+      <point x="319.16666666666663" y="663.0" />
+      <point x="351.5" y="663.0" />
+      <point x="86.5" y="100.0" />
+    </edge>
+    <edge source="com.edutool.User" target="com.edutool.UserType">
+      <point x="0.0" y="-100.5" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="com.edutool.Mark" target="com.edutool.Subject">
+      <point x="-34.60000000000002" y="-51.5" />
+      <point x="320.9441176470588" y="908.0" />
+      <point x="178.5" y="908.0" />
+      <point x="-86.5" y="100.0" />
+    </edge>
+    <edge source="com.edutool.Message" target="com.edutool.User">
+      <point x="0.0" y="-51.5" />
+      <point x="993.5" y="418.0" />
+      <point x="939.0" y="418.0" />
+      <point x="43.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Teacher" target="com.edutool.User">
+      <point x="0.0" y="-100.0" />
+      <point x="448.5" y="398.0" />
+      <point x="767.0" y="398.0" />
+      <point x="-129.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Moderator" target="com.edutool.User">
+      <point x="63.75" y="-52.0" />
+      <point x="1291.75" y="398.0" />
+      <point x="1025.0" y="398.0" />
+      <point x="129.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Mark" target="com.edutool.Teacher">
+      <point x="0.0" y="-51.5" />
+      <point x="355.54411764705884" y="918.0" />
+      <point x="351.5" y="918.0" />
+      <point x="-97.0" y="100.0" />
+    </edge>
+    <edge source="com.edutool.Chat" target="com.edutool.Message">
+      <point x="96.0" y="-100.0" />
+      <point x="1040.75" y="663.0" />
+      <point x="993.5" y="663.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="com.edutool.Subject" target="com.edutool.Lecture">
+      <point x="86.5" y="-100.0" />
+      <point x="351.5" y="418.0" />
+      <point x="315.79411764705884" y="418.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.edutool.Chat" target="com.edutool.User">
+      <point x="-96.0" y="-100.0" />
+      <point x="848.75" y="663.0" />
+      <point x="896.0" y="663.0" />
+      <point x="0.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Subject" target="com.edutool.Task">
+      <point x="-86.5" y="-100.0" />
+      <point x="178.5" y="418.0" />
+      <point x="222.29411764705884" y="418.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.edutool.Student" target="com.edutool.User">
+      <point x="0.0" y="-40.0" />
+      <point x="604.5" y="408.0" />
+      <point x="810.0" y="408.0" />
+      <point x="-86.0" y="100.5" />
+    </edge>
+    <edge source="com.edutool.Teacher" target="com.edutool.Student">
+      <point x="129.33333333333337" y="-100.0" />
+      <point x="577.8333333333334" y="663.0" />
+      <point x="556.0" y="663.0" />
+      <point x="-48.5" y="40.0" />
+    </edge>
+    <edge source="com.edutool.Mark" target="com.edutool.Marks">
+      <point x="-69.19999999999993" y="-51.5" />
+      <point x="286.3441176470589" y="918.0" />
+      <point x="84.0" y="918.0" />
+      <point x="0.0" y="99.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5786993402450519" x="678.0" y="520.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
