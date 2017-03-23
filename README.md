@@ -13,3 +13,4 @@ The app will be available in the web.
 
 ### UML Diagram
 
+![UML Diagram](https://github.com/Vashanin/EduTool/blob/master/uml.png)
