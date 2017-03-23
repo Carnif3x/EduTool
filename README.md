@@ -7,9 +7,9 @@ EduTool - is a Java application for education managing. It can be used by studen
 The app will be available in the web.
 
 ### Authors
-1) Vladislav Shanin
-2) Serhyy Muzhylivskyi
-3) Alex Timonov
+1) [Vladislav Shanin](https://github.com/Vashanin)
+2) [Serhyy Muzhylivskyi](https://github.com/Sirko2097)
+3) [Alex Timonov](https://github.com/Carnif3x)
 
 ### UML Diagram
 
